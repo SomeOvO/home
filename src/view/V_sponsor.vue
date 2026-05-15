@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+  <script lang="ts" setup>
 import router from '@/router';
 import { ref } from 'vue';
 const baseurl = "https://b.sakurasen.cn/api/myapi/v1"
@@ -25,7 +25,8 @@ const list = ref({
   "code": NaN
 })
 function payed() {
-  pay.value = true
+  pay.value = false
+  alert("请联系QQ:2402147211")
 }
 function upload() {
 
